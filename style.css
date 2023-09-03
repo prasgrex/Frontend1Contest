@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Bai+Jamjuree&family=Inter&family=Poppins&family=Roboto&display=swap');
 
-/* font-family: 'ABeeZee', sans-serif;
-font-family: 'Bai Jamjuree', sans-serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 *{
     margin: 0px;
     padding: 0px;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
 
 .navleft>p{
@@ -612,7 +610,7 @@ nav{
         width:80vw;
         margin-left: 60px;
     }
-    
+
     .company{
         display: flex;
         align-items: center;
